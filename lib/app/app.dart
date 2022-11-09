@@ -1,5 +1,6 @@
-import 'package:ecommerce_mina/presentation/theme_manager.dart';
 import 'package:flutter/material.dart';
+
+import '../presentation/resources/theme_manager.dart';
 
 class MyApp extends StatefulWidget {
   // const MyApp({Key? key}) : super(key: key); // Default Constructor
