@@ -1,6 +1,7 @@
 import 'package:ecommerce_mina/presentation/forgot_password/forgot_password_view.dart';
 import 'package:ecommerce_mina/presentation/login/login_view.dart';
 import 'package:ecommerce_mina/presentation/main/main_view.dart';
+import 'package:ecommerce_mina/presentation/onboarding/onboarding_view.dart';
 import 'package:ecommerce_mina/presentation/register/register_view.dart';
 import 'package:ecommerce_mina/presentation/resources/strings_manager.dart';
 import 'package:ecommerce_mina/presentation/splash/splash_view.dart';
@@ -13,6 +14,7 @@ class Routes {
   static const String loginRoute = "/login";
   static const String registerRoute = "/register";
   static const String forgotPasswordRoute = "/forgotPassword";
+  static const String onBoardingRoute = "/onBoarding";
   static const String mainRoute = "/main";
   static const String storeDetailsRoute = "/storeDetails";
 }
@@ -24,6 +26,8 @@ class RoutesGenerator {
         return MaterialPageRoute(builder: (_) => const SplashView());
       case Routes.loginRoute:
         return MaterialPageRoute(builder: (_) => const LoginView());
+      case Routes.onBoardingRoute:
+        return MaterialPageRoute(builder: (_) => const OnBoardingView());
       case Routes.registerRoute:
         return MaterialPageRoute(builder: (_) => const RegisterView());
       case Routes.forgotPasswordRoute:
