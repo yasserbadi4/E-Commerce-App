@@ -1,7 +1,7 @@
 import 'package:ecommerce_mina/presentation/forgot_password/forgot_password_view.dart';
 import 'package:ecommerce_mina/presentation/login/login_view.dart';
 import 'package:ecommerce_mina/presentation/main/main_view.dart';
-import 'package:ecommerce_mina/presentation/onboarding/onboarding_view.dart';
+import 'package:ecommerce_mina/presentation/onboarding/view/onboarding_view.dart';
 import 'package:ecommerce_mina/presentation/register/register_view.dart';
 import 'package:ecommerce_mina/presentation/resources/strings_manager.dart';
 import 'package:ecommerce_mina/presentation/splash/splash_view.dart';
